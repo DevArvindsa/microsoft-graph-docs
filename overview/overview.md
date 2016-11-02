@@ -10,13 +10,13 @@ You can use Microsoft Graph to:
 
 **Microsoft Graph developer stack**
 
-![Microsoft Graph API developer stack.](./images/MicrosoftGraph_DevStack.png)
+![A diagram that shows the layers of the Microsoft Graph developer stack. At the bottom is the data layer, which includes users, groups, file, mail, calendars, personal contacts, tasks, org contacts, people, Excel, and notes. The next layer is authentication and authorization. Next is the development environment of your choice, including the Android, iOS, and Visual Studio Microsoft Graph API SDKs. The final layer is your solution, which uses the technology of your choice, including .NET, JS, HTML, and Ruby, and is hosted on Microsoft Azure or another hosting platform.](./images/MicrosoftGraph_DevStack.png)
 
 <!--<a name="msg_queries"> </a>-->
 
 ##Common Microsoft Graph queries
 
-Microsoft Graph exposes two endpoints: /v1.0 and /beta. The /v1.0 endpoint includes the resources that you can access in your production app. The [/beta](../../api-reference/beta/beta-overview.md) endpoint includes APIs that are currently in preview. The following table lists some common queries that you can use to access the Microsoft Graph API.
+Microsoft Graph exposes two endpoints: /v1.0 and /beta. The /v1.0 endpoint includes the resources that you can access in your production app. The [/beta](../../docs/api-reference/beta/beta-overview.md) endpoint includes APIs that are currently in preview. The following table lists some common queries that you can use to access the Microsoft Graph API.
 
 | **Operation**	| **Service endpoint** |
 |:--------------------------|:----------------------------------------|
@@ -43,9 +43,9 @@ Microsoft Graph exposes two endpoints: /v1.0 and /beta. The /v1.0 endpoint inclu
 
 ##Explore Microsoft Graph
 
-- [Get started](../get-started/get-started.md) using Microsoft Graph and the platform of your choice.
+- [Get started](../../platform/get-started) using Microsoft Graph and the platform of your choice.
 - Discover the resources and operations that you can use in your production apps by browsing the TOC.
-- Preview the new [beta APIs](../../api-reference/beta/beta-overview.md).
+- Preview the new [beta APIs](http://graph.microsoft.io/en-us/docs/api-reference/beta/beta-overview).
 - Visit the [Microsoft Graph Explorer](https://graph.microsoft.io/en-us/graph-explorer).
 
  >  Your feedback is important to us. Connect with us on [Stack Overflow](http://stackoverflow.com/questions/tagged/office365+or+microsoftgraph). Tag your questions with [MicrosoftGraph] and [office365].
